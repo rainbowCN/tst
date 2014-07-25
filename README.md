@@ -4,3 +4,4 @@ tst
 ===
 
 1. Turn on the Travis.
+2. Added the main point of app.
