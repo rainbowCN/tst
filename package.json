@@ -1,0 +1,19 @@
+{
+  "name": "tst",
+  "version": "0.0.1",
+  "description": "Travis CI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"CI Completed\"; "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rainbowCN/tst.git"
+  },
+  "author": "James.Yu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rainbowCN/tst/issues"
+  },
+  "homepage": "https://github.com/rainbowCN/tst"
+}
