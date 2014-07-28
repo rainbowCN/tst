@@ -9,7 +9,7 @@
     "grunt-contrib-uglify": "~0.2.2"
   },  
   "scripts": {
-    "test": "npm -v"
+    "test": "grunt"
   },
   "repository": {
     "type": "git",
