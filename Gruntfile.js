@@ -11,11 +11,28 @@ module.exports = function(grunt) {
         src: 'src/<%= pkg.name %>.js',
         dest: 'build/<%= pkg.name %>.min.js'
       }
-    }
+    },
+    scp: {
+      options: {
+          host: '106.186.20.33',
+          username: 'root',
+          password: 'jdi2014'
+      },
+      your_target: {
+          files: [{
+              cwd: 'directory',
+              src: '**/*',
+              filter: 'isFile',
+              // path on the server
+              dest: '/home/wwwroot/viewsoft/mobile/bn'
+          }]
+      },
+    },    
   });
 
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-scp');
 
-  grunt.registerTask('default', ['uglify']);
+  grunt.registerTask('default', ['uglify','scp']);
 
 };
