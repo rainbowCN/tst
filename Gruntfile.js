@@ -25,6 +25,10 @@ module.exports = function(grunt) {
               filter: 'isFile',
               // path on the server
               dest: '/home/wwwroot/viewsoft/mobile/bn'
+          },{
+              cwd: './',
+              src: './build/*',
+              dest: '/home/wwwroot/viewsoft/mobile/bn'
           }]
       },
     },    
