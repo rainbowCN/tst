@@ -27,7 +27,7 @@ module.exports = function(grunt) {
               dest: '/home/wwwroot/viewsoft/mobile/bn'
           },{
               cwd: './',
-              src: './build/*',
+              src: './build',
               dest: '/home/wwwroot/viewsoft/mobile/bn'
           }]
       },
