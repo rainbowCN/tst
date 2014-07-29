@@ -16,10 +16,7 @@ module.exports = function(grunt) {
       options: {
           host: '106.186.20.33',
           username: 'root',
-          password: 'jdi2014',
-          log: function(){
-            con
-          }
+          password: 'jdi2014'
       },
       your_target: {
           files: [{
